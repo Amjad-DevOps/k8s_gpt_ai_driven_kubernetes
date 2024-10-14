@@ -14,7 +14,7 @@ K8sGPT is an innovative approach to leveraging AI for Kubernetes (K8s) managemen
    using `k8sgpt auth add` command
 
 2. Analyse a namespace
-   ``k8sgpt analyze --explain --namespace <namespace_name>
+   ``k8sgpt analyze --explain --namespace <namespace_name>``
 
 
    

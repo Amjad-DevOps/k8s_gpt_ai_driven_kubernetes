@@ -17,9 +17,11 @@ K8sGPT is an innovative approach to leveraging AI for Kubernetes (K8s) managemen
    ``k8sgpt analyze --explain --namespace <namespace_name>``
 
 3. Filter a specific kind eg: service/deployement/pod
-   ``k8sgpt analyze --explain --filter=Service --namespace <namespace name>``
-   ``k8sgpt analyze --explain --filter=Deployment --namespace <namespace name>``
-   ``k8sgpt analyze --explain --filter=pod --namespace <namespace name>``
+   ```
+   k8sgpt analyze --explain --filter=Service --namespace <namespace name>
+   k8sgpt analyze --explain --filter=Deployment --namespace <namespace name>
+   k8sgpt analyze --explain --filter=pod --namespace <namespace name>
+   ```
 
 5. Output as a JSON
    ``k8sgpt analyze --explain --namespace k8sgpt --output=json``
